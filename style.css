@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.maincontainer {
+  background-color: rgb(85, 105, 220);
+  width: 100%;
+}
+header{
+  background-color: rgb(85, 105, 220);
+  position: sticky;
+  top: 0;
+  z-index: 21;
+}
+.container1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.box a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  transition: color 0.3s;
+}
+
+.box a:hover {
+  color: rgba(0, 0, 0, 0.972);
+}
+
+.container2 {
+  display: flex;
+  height: 89vh;
+}
+
+.laptop {
+  width: 73%;
+  /* background-image: url(laptop.webp); */
+  background-attachment:local;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#black{
+  background-color: black;
+  height: 89%;
+  width: 73vw;
+  opacity: .8;
+  position: absolute;
+  z-index: 3;
+}
+#black img{
+  height: 89vh;
+    width: 73vw;
+  object-fit: cover;
+}
+
+.hello {
+  position: relative;
+  z-index: 10;
+  font-size: 24px;
+  font-weight: 400;
+  font-stretch: 100%;
+  letter-spacing: 8.4px;
+  font-family: futura-lt-w01-light, futura-lt-w05-light, sans-serif;
+}
+
+.name {
+  position: relative;
+  z-index: 10;
+  font-size: 88px;
+  font-family: playfairdisplay-bold, "playfair display", serif;
+  animation: breathe 3500ms infinite forwards;
+ 
+}
+@keyframes breathe {
+  50%{
+    transform: scaleX(0.9) scaleY(0.9);
+  }
+  100%{
+    transform: scaleX(1) scaleY(1);
+  }
+  
+}
+
+.profession {
+  font-style: italic;
+  letter-spacing: 7px;
+  position: relative;
+  z-index: 10;
+  font-size: 21px;
+
+  font-family: "playfair display", serif;
+}
+
+.profilepic {
+  overflow: auto;
+  width: 24%;
+  background-color: rgb(85, 105, 220);
+}
+.pic{
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    overflow:hidden;
+    margin-left:7vw;
+}
+.Name{
+    font-size: 40px;
+
+    color: white;
+    margin-bottom: 10px;
+}
+.container3{
+  margin-left: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.branch{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.college{
+    color:white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.container4{
+  margin-left: 2vw;
+    margin-top:1vh;
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    padding: 9px;
+}
+.icons:hover{
+    background-color: black;
+}
+.container5{
+    margin-top: 15vh;
+    margin-left: 8vw;
+    color: white;
+}
+.container5 div a{
+    color: white;
+    text-decoration: none;
+}
+.button{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+.projects{
+      font-family: "Poppins", sans-serif;
+    overflow: auto;
+    color: white;
+    padding: 100px 170px;
+    background-image: repeating-linear-gradient(to bottom, rgb(85, 105, 220), rgb(145, 158, 228));
+}
+button{
+  transition:background-color .3s;
+    margin-left: 4vw;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    border: none;
+    border-radius:48%;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.email a:hover{
+    color: rgb(0, 0, 0);
+}
+.mobno a:hover{
+    
+    color: rgb(0, 0, 0);
+}
+.about{
+  font-family: "Poppins", sans-serif;
+  overflow: auto;
+  color: white;
+  padding: 100px 170px;
+  background-image: repeating-linear-gradient(to bottom , rgb(85, 105, 220) , rgb(145, 158, 228));
+}
+.about p{
+  font-family:"playfair display", serif;
+  width: 800px;
+  padding: 20px 0px;
+}
+.ESL{
+  font-family: "Poppins", sans-serif;
+  overflow: auto;
+  color: white;
+  background-image: repeating-linear-gradient(to bottom , rgb(85, 105, 220) , rgb(145, 158, 228));
+  display:flex;
+   padding: 100px 171px;
+}
+ul{
+  list-style-position: inside;
+}
+ol{
+  list-style-position: inside;
+}
+.lang{
+  padding-left: 300px;
+}
+.skills{
+  padding-left: 200px;
+}
+.achiv{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-image: repeating-linear-gradient(to bottom , rgb(85, 105, 220) , rgb(145, 158, 228));
+ padding:100px 170px;
+}
+.contact{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-image: repeating-linear-gradient(to bottom , rgb(85, 105, 220) , rgb(145, 158, 228));
+  padding: 100px 170px;
+  background-color: rgb(170, 193, 237);
+}
+h1{
+  text-shadow:3px 0px 4px black;;
+}
+ .socialmedia{
+  margin-top: 21px;
+  display: flex;
+  justify-content: start;
+}
+footer div p{
+  font-family: "Poppins", sans-serif;
+  background-image:linear-gradient(to right,#81faf9,#006eff);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 34px;
+}
+
+
+
+
